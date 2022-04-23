@@ -1,0 +1,38 @@
+{
+  fillDb
+}
+
+mutation{
+  userCreate(userData:{name:"new_user",group:"teachers"}){
+    user{
+      name
+      group
+    }
+  }
+}
+
+{
+  user(name:"new_user"){
+    name
+    group
+    age
+    city
+  }
+}
+
+mutation{
+  userUpdate(userData:{name:"new_user"},newData:{group:"students"}){
+    user{
+      name
+      group
+    }
+  }
+}
+
+mutation{
+  userDelete(userData:{name:"new_user"}){
+    user{
+      name
+    }
+  }
+}
