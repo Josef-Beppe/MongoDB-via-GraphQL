@@ -1,7 +1,6 @@
 pokud se nepripoji k databazi tak ukoncit
 prace s databazi, hlaseni pokud nenajde, duplicita...
-zabezpeceni (heslo a token), pristup k databazi
 zmenit na pozadovanou strukturu dat
-vnorene pole (vypsat usera, u jeho skupiny vypsat skupinu)
-vyhledavani pres redex (vsechny jmena obsahujici pozadovanou sekvenci znaku)
+vnorene pole graphql (vypsat usera, u jeho skupiny vypsat skupinu)
+vyhledavani pres regex (vsechny jmena obsahujici pozadovanou sekvenci znaku)
 sracky zabalit do slozky moduls a nechat jen app.py
