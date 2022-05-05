@@ -2,6 +2,7 @@ motor
 asyncio
 Flask
 flask_graphql
+graphene
 
 not complete!!!
 too lazy to write at the moment
