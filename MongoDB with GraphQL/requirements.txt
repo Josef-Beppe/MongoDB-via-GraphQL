@@ -2,7 +2,7 @@ motor
 asyncio
 Flask
 flask_graphql
-graphene
+graphene==2.1.8
 
 not complete!!!
 too lazy to write at the moment
