@@ -1,6 +1,7 @@
 motor
 asyncio
 Flask
+flask_graphql
 
 not complete!!!
 too lazy to write at the moment
