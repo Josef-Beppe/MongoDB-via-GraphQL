@@ -13,5 +13,3 @@ app.add_url_rule(
 if __name__ == "__main__":
 	init_db()
 	app.run()
-
-	#asyncio gather
