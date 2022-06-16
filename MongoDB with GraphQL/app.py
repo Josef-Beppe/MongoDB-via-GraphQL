@@ -7,9 +7,11 @@ app = Flask(__name__)
 app.debug = False
 
 app.add_url_rule(
-    "/graphql", view_func=GraphQLView.as_view("graphql", schema=schema, graphiql=True)
+    "/", view_func=GraphQLView.as_view("graphql", schema=schema, graphiql=True)
 )
 
 if __name__ == "__main__":
 	init_db()
 	app.run()
+
+	#asyncio gather
