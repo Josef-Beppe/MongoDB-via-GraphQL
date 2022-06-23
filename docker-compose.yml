@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  # generates mongodb
+  mongodb:
+    image: mongo
+    container_name: mongo
+    restart: always
+    expose:
+      - "27017"
+
+  graphql_handler:
+    image: graphql_handler
+    container_name: graphql_handler
+    build:
+      context: ./GraphQL Handler
+    ports:
+      - "5000:5000"
+    restart: on-failure

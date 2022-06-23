@@ -1,0 +1,5 @@
+motor
+asyncio
+Flask==2.1.2
+flask_graphql
+graphene
