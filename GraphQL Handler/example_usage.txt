@@ -292,7 +292,7 @@ mutation
 
 mutation
 { 
-    createGroup(name:"komando", groupTypeID:"3")
+    createGroup(name:"komando", groupTypeID:"23")
     {
         group {
             id
