@@ -54,7 +54,7 @@ query
 
 query
     { 
-        group(id:"5"){
+        group(id:"15"){
         id
         name
         groupType{
@@ -71,7 +71,7 @@ query
 {
   "data": {
     "group": {
-      "id": "5",
+      "id": "15",
       "name": "Katedra informatiky a kybernetickych operaci",
       "groupType": {
         "name": "katedra"
@@ -103,7 +103,7 @@ query
 
 query
     { 
-        groupType(id:"1"){
+        groupType(id:"21"){
         id
         name
         }
@@ -112,7 +112,7 @@ query
 {
   "data": {
     "groupType": {
-      "id": "1",
+      "id": "21",
       "name": "fakulta"
     }
   }
@@ -122,7 +122,7 @@ query
 
 query
     { 
-        roleType(id:"1"){
+        roleType(id:"31"){
         id
         name
         }
@@ -131,7 +131,7 @@ query
 {
   "data": {
     "roleType": {
-      "id": "1",
+      "id": "31",
       "name": "student"
     }
   }
@@ -336,7 +336,7 @@ mutation
   "data": {
     "updateGroup": {
       "group": {
-        "id": "1",
+        "id": "11",
         "name": "Fakulta vojenskych technologii",
         "groupType": {
           "name": "fakulta"
